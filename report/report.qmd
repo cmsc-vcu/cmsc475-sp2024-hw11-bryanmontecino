@@ -1,0 +1,79 @@
+---
+title: Homework 11 - mobile app interactivity
+author: <your name goes here>
+date: last-modified
+lightbox: true
+format:
+  html:
+    toc: true
+    embed-resources: true
+    theme: cosmo
+---
+
+* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-template)
+
+* [LINK to FIGMA](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-template)
+
+* [LINK to Snack Editor](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-template)
+
+# Overview of (Name of application)
+
+[provide a brief description of your app.  You can use info from last week's pitch.]
+
+# Key features
+
+[expand on the key features that you described in the previous assignment.]
+
+# Individual Screen details
+
+The following section documents the individual screens of the application, the elements on each screen,
+and how the user is expected to interact with the screen.
+
+**NOTE: the following sections should be repeated for each of your screens, that is 2nd level screen name
+followed by a wireframe example and an as-built screen shot.
+
+## Main screen
+
+The main screen serves as the central node for this application.  All other screens return to this screen.
+
+### Interactivity on this screen
+
+
+
+### Wireframe design
+
+Below is my wireframe image.  (include a description of features and elements.)
+
+![](./assets/sample-image.png){height=400 fig-align="center"}
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone.
+
+![](./assets/sample-image.png){height=400 fig-align="center"}
+
+# Snack code for this screen
+
+(this is a level 1 section, provide a snack that contains your currently working app which
+includes your screens and a navigation system.
+)
+
+```{=html}
+<div 
+data-snack-id="@jleonard99/cmsc475-sp2024-homework-11-template"
+data-snack-platform="web"
+data-snack-preview="true" 
+data-snack-theme="light" 
+style="overflow:hidden;background:#fbfcfd;border:3px solid var(--color-border);border-radius:4px;height:500px;width:100%">
+</div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+```
+
+# Reflection
+
+* Discuss your experience coding hooks in this assignment.  Which hooks were hardest?  Which easiest?  What helped you figure them out?
+* How much time did you spend on this specific assignment (homework 11 - interactivity)?
+* What was the easiest part of this specific assignment (hw11)?
+* What is the hardest part of this specific assignment (hw11)?
+* Discuss your overall experience using Snack and developing this mobile app.
+
