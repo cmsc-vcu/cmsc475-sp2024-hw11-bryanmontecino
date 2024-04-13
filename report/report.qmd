@@ -1,7 +1,7 @@
 ---
 title: Homework 11 - mobile app interactivity
-author: <your name goes here>
-date: last-modified
+author: Bryan Lizama Montecino
+date: April 13, 2024
 lightbox: true
 format:
   html:
@@ -10,62 +10,104 @@ format:
     theme: cosmo
 ---
 
-* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-template)
+* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-bryanmontecino)
+* [LINK to FIGMA Wireframe](https://www.figma.com/file/05MxgwNysAFjayXVq32tS4/app-storyboard?type=design&node-id=0%3A1&mode=design&t=2J1bIsAezATVQobG-1)
+* [LINK to Snack Editor](https://snack.expo.dev/)
 
-* [LINK to FIGMA](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-template)
+# Overview of Event RSVP Helper
 
-* [LINK to Snack Editor](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-template)
-
-# Overview of (Name of application)
-
-[provide a brief description of your app.  You can use info from last week's pitch.]
+The Event RSVP Helper app is designed to digitize and simplify the RSVP process for various events, targeting a broad audience of adults. It aims to facilitate event planning without the hassle of traditional mail, offering an easy-to-use web interface for guests to respond. Key features include customizable digital invitations, a user-friendly design, and seamless guest management. The app will generate revenue through a token system or advertisements.
 
 # Key features
 
-[expand on the key features that you described in the previous assignment.]
+- Simplifies planning for key events like weddings, birthdays, baby showers, graduations, or other gatherings.
+- Eliminates the need to track attendees, send physical invitations, and manage RSVP responses manually.
+- Offers a luxurious user experience for both event organizers and invitees.
+- Allows selection of event type and corresponding invitation templates with specific themes:
+  - Weddings feature white flowers and black and white themes.
+  - Baby showers use balloons and baby bottles with pink and blue motifs.
+  - Graduation celebrations include caps and festive decorations.
+  - Birthdays come with cake and candle designs.
+  - An "Other" category provides versatile options for various events.
+- Auto-fills event details into chosen templates, simplifying the invitation design process.
+- Utilizes user's contact list for easy invitation distribution without needing email addresses or phone numbers.
+- Enables setting a response deadline, after which a detailed summary of RSVPs assists in event planning and budgeting.
+
+![](./assets/entire-wireframe.png){height=700 fig-align="center"}
 
 # Individual Screen details
 
 The following section documents the individual screens of the application, the elements on each screen,
 and how the user is expected to interact with the screen.
 
-**NOTE: the following sections should be repeated for each of your screens, that is 2nd level screen name
-followed by a wireframe example and an as-built screen shot.
-
 ## Main screen
 
-The main screen serves as the central node for this application.  All other screens return to this screen.
-
-### Interactivity on this screen
-
-
+The main screen serves as the central node for this application.  All other screens begin from this screen.
 
 ### Wireframe design
 
-Below is my wireframe image.  (include a description of features and elements.)
+Below is my wireframe image.
 
-![](./assets/sample-image.png){height=400 fig-align="center"}
+![](./assets/main-screen.png){height=250 fig-align="center"}
 
 ### As-built screenshot
 
-Here is a screen shot of the image I created running on my phone.
+Here are screen shots of what I created running on my phone.
 
-![](./assets/sample-image.png){height=400 fig-align="center"}
+![](./assets/SS-mainscreen.PNG){height=400 fig-align="center"}
 
-# Snack code for this screen
+![](./assets/SS-theme-selection.PNG){height=400 fig-align="center"}
 
-(this is a level 1 section, provide a snack that contains your currently working app which
-includes your screens and a navigation system.
-)
+![](./assets/SS-event-details.PNG){height=400 fig-align="center"}
+
+![](./assets/SS-empty-fields.PNG){height=400 fig-align="center"}
+
+![](./assets/SS-preview-details.PNG){height=400 fig-align="center"}
+
+## Contacts Screen
+
+The contacts screen serves as the starting point for other screens that all work to allow the user to freely select who their guests will be, along with customizing the message invites.
+
+### Wireframe design
+
+Below is my wireframe image.
+
+![](./assets/contacts-screen.png){height=250 fig-align="center"}
+
+### As-built screenshot
+
+Here are screen shots of what I created running on my phone.
+
+![](./assets/SS-guest-selection.PNG){height=400 fig-align="center"}
+
+![](./assets/SS-custom-message.PNG){height=400 fig-align="center"}
+
+![](./assets/SS-preview-final-invite.PNG){height=400 fig-align="center"}
+
+![](./assets/SS-invite-sent.PNG){height=400 fig-align="center"}
+
+## Settings Screen
+
+The settings screen gives the user the ability to set the app according to their preferences, dealing with app appearance and access to contacts.
+
+### Wireframe design
+
+Below is my wireframe image.
+
+![](./assets/settings-screen.png){height=250 fig-align="center"}
+
+### As-built screenshot
+
+Here is a screen shot of what I created running on my phone.
+
+![](./assets/SS-drawer-navigation.PNG){height=400 fig-align="center"}
+
+![](./assets/SS-settings-screen.PNG){height=400 fig-align="center"}
+
+# Snack code for screens
 
 ```{=html}
-<div 
-data-snack-id="@jleonard99/cmsc475-sp2024-homework-11-template"
-data-snack-platform="web"
-data-snack-preview="true" 
-data-snack-theme="light" 
-style="overflow:hidden;background:#fbfcfd;border:3px solid var(--color-border);border-radius:4px;height:500px;width:100%">
-</div>
+<div data-snack-id="@lizamamobj/hw10" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
 <script async src="https://snack.expo.dev/embed.js"></script>
 ```
 
