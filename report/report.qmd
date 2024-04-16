@@ -68,6 +68,13 @@ Here are screen shots of what I created running on my phone.
 
 ![](./assets/SS-preview-details.png){height=400 fig-align="center"}
 
+### Interactivity
+
+* The Home Screen acts as the central hub where users can choose the type of event they want to plan. It features several interactive buttons, each representing a different event type (e.g., Wedding, Birthday, Graduation, Baby Shower, Other).
+* Tapping on these buttons triggers navigation to the 'Theme Selection' screen with the respective event type as a parameter, facilitating a tailored experience for each choice.
+* The screen also incorporates dynamic styling that adjusts the background and text color based on a global dark mode setting. This responsiveness enhances user experience by adapting the visual elements to their preference settings.
+* Additionally, there's a settings button prominently placed to provide easy access to the app’s settings, further emphasizing functionality and user control.
+
 ## Contacts Screen
 
 The contacts screen serves as the starting point for other screens that all work to allow the user to freely select who their guests will be, along with customizing the message invites.
@@ -92,6 +99,11 @@ Here are screen shots of what I created running on my phone.
 
 ![](./assets/SS-invite-sent.PNG){height=400 fig-align="center"}
 
+### Interactivity
+* This screen offers a dynamic list of potential guests, each listed with a switch to toggle their invitation status. This interactivity allows users to manage who is invited to the event directly from this list.
+* The switches provide immediate feedback when toggled, changing color to indicate an invited or uninvited status, thus giving clear visual cues.
+* A 'Finalize Invites' button at the bottom of the screen allows users to proceed once they have set their guest list, navigating them to the next step in the event planning process, which involves text customization for invitations.
+
 ## Settings Screen
 
 The settings screen gives the user the ability to set the app according to their preferences, dealing with app appearance and access to contacts.
@@ -109,6 +121,11 @@ Here is a screen shot of what I created running on my phone.
 ![](./assets/SS-drawer-settings.png){height=400 fig-align="center"}
 
 ![](./assets/SS-settings-screen.PNG){height=400 fig-align="center"}
+
+### Interactivity
+* The Settings Screen provides toggle switches for enabling or disabling dark mode and access to contacts. These switches allow users to customize their app experience to suit their preferences, demonstrating a practical application of React's state management and context API.
+* Each setting adjustment is immediately reflected in the app’s UI, showing the impact of user choices in real-time.
+* There's also a logout button that, when pressed, displays a logout confirmation, further emphasizing user control and security within the app.
 
 # Snack code for screens
 
