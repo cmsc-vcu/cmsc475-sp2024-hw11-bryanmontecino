@@ -133,20 +133,3 @@ Here is a screen shot of what I created running on my phone.
 <div data-snack-id="@lizamamobj/hw10" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
 <script async src="https://snack.expo.dev/embed.js"></script>
 ```
-
-# Reflection
-
-* Discuss your experience coding hooks in this assignment.  Which hooks were hardest?  Which easiest?  What helped you figure them out?
-Working through Homework 11 was difficult. I used several React hooks such as useState, useEffect, and some instances of useContext. The easiest hook to implement in the mobile app was useState as it was pretty straight-forward, with the purpose of managing the state within a component. On the flip side, working with useEffect brought challenges to the homework, as it was hard to keep track of the side effects. It was trial and error when working with it to avoid making infinite loops API calls.
-
-* How much time did you spend on this specific assignment (homework 11 - interactivity)?
-For HW11, I spent approximately 2 hours per day this entire past week. Most of the time was dedicated to understanding hooks, managing states and ensuring all interactive elements kept their intended purpose.
-
-* What was the easiest part of this specific assignment (hw11)?
-For the easiest part of HW11, I believe was implementing TextInput components for the Event Details Screen, along with managing the state with the useState hook.
-
-* What is the hardest part of this specific assignment (hw11)?
-The hardest part of this assignment was working with API fetch calls. It was difficult to correctly use the useEffect hook to fetch data from an API.
-
-* Discuss your overall experience using Snack and developing this mobile app.
-Using Snack is great. Having the ability to receive instant feedback and the ability to see changes immediately on my physical iPhone through the Expo app was beneficial.
