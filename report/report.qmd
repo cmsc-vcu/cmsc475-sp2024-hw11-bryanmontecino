@@ -1,5 +1,5 @@
 ---
-title: Homework 11 - mobile app interactivity
+title: Mobile app interactivity
 author: Bryan Lizama Montecino
 date: April 15, 2024
 lightbox: true
@@ -10,13 +10,13 @@ format:
     theme: cosmo
 ---
 
-* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-bryanmontecino)
-* [LINK to FIGMA Wireframe](https://www.figma.com/file/05MxgwNysAFjayXVq32tS4/app-storyboard?type=design&node-id=0%3A1&mode=design&t=2J1bIsAezATVQobG-1)
-* [LINK to Snack Editor](https://snack.expo.dev/@lizamamobj/hw11?platform=ios)
+* [Link to FIGMA Wireframe](https://www.figma.com/file/05MxgwNysAFjayXVq32tS4/app-storyboard?type=design&node-id=0%3A1&mode=design&t=2J1bIsAezATVQobG-1)
+* [Link to Snack Editor](https://snack.expo.dev/@lizamamobj/hw11?platform=ios)
+* [Link to GITHUB](https://github.com/cmsc-vcu/cmsc475-sp2024-hw11-bryanmontecino)
 
 # Overview of Event RSVP Helper
 
-The Event RSVP Helper app is designed to digitize and simplify the RSVP process for various events, targeting a broad audience of adults. It aims to facilitate event planning without the hassle of traditional mail, offering an easy-to-use web interface for guests to respond. Key features include customizable digital invitations, a user-friendly design, and seamless guest management. The app will generate revenue through a token system or advertisements.
+The Event RSVP Helper app is designed to digitize and simplify the RSVP process for various events, targeting a broad audience of adults. It aims to facilitate event planning without the hassle of traditional mail, offering an easy-to-use interface for guests to respond. Key features include customizable digital invitations, a user-friendly design, and seamless guest management. The app would generate revenue through a token system or advertisements.
 
 # Key features
 
@@ -127,7 +127,7 @@ Here is a screen shot of what I created running on my phone.
 * Each setting adjustment is immediately reflected in the app’s UI, showing the impact of user choices in real-time.
 * There's also a logout button that, when pressed, displays a logout confirmation, further emphasizing user control and security within the app.
 
-# Snack code for screens
+# Snack Code - App
 
 ```{=html}
 <div data-snack-id="@lizamamobj/hw11" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
