@@ -18,6 +18,13 @@ format:
 
 The Event RSVP Helper app is designed to digitize and simplify the RSVP process for various events, targeting a broad audience of adults. It aims to facilitate event planning without the hassle of traditional mail, offering an easy-to-use interface for guests to respond. Key features include customizable digital invitations, a user-friendly design, and seamless guest management. The app would generate revenue through a token system or advertisements.
 
+# Snack Code - App
+
+```{=html}
+<div data-snack-id="@lizamamobj/hw11" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+```
+
 # Key features
 
 - Streamlines planning for weddings, birthdays, and other events.
@@ -126,10 +133,3 @@ Here is a screen shot of what I created running on my phone.
 * The Settings Screen provides toggle switches for enabling or disabling dark mode and access to contacts. These switches allow users to customize their app experience to suit their preferences, demonstrating a practical application of React's state management and context API.
 * Each setting adjustment is immediately reflected in the app’s UI, showing the impact of user choices in real-time.
 * There's also a logout button that, when pressed, displays a logout confirmation, further emphasizing user control and security within the app.
-
-# Snack Code - App
-
-```{=html}
-<div data-snack-id="@lizamamobj/hw11" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
-<script async src="https://snack.expo.dev/embed.js"></script>
-```
